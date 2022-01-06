@@ -1,6 +1,6 @@
-const ListItem = ({song, key}) => {
+const ListItem = ({song, index}) => {
     return (
-        <p>Position: {key} Artist: {song["im:artist"].label} Title: {song["im:name"].label}</p>
+        <li>Position: {index + 1} - Artist: {song["im:artist"].label} - Title: {song["im:name"].label}</li>
     )
         
     

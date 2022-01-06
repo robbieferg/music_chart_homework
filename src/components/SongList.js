@@ -2,7 +2,7 @@ import ListItem from './ListItem';
 
 const SongList = ({songs}) => {
     const songsItems = songs.map((song, index) => {
-        return <ListItem song={song} key={index}/>
+        return <ListItem song={song} index={index}/>
     });
     
     return (
